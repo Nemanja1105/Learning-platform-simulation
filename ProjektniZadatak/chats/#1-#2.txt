@@ -1,0 +1,7 @@
+#1 #2 08/01/2022 Zdravo kolega
+#1 #2 08/01/2022 Da li ste uradili projektni zadatak
+#2 #1 08/01/2022 Evo zavrsavam ktb
+#1 #2 08/01/2022 Evo privodim kraju malo me kursevi zezaju
+#1 #2 9/1/2022 Ne znam kako bi preduslove realizovao
+#2 #1 9/1/2022 Ja sam to bas poopstio
+#1 #2 19/01/2022 Ma da tako cu i ja

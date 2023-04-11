@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Users">
+      <UniqueIdentifier>{e0139de3-34e2-40b4-bd1a-83c4bf435d91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Users">
+      <UniqueIdentifier>{5ccec87e-ba71-4ebf-a8f6-9d101e0cddad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\FriendReq">
+      <UniqueIdentifier>{40f0775f-9247-450d-9e69-2543e656e615}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FriendReq">
+      <UniqueIdentifier>{b1035e6e-b090-467d-bf21-58033050156e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Chat">
+      <UniqueIdentifier>{68936028-8388-4cb9-9d7a-c846a236d56b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Chat">
+      <UniqueIdentifier>{54b31b2e-85b4-4786-a0a1-e6c5c702d520}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Courses">
+      <UniqueIdentifier>{faf3368e-34cf-4267-be7a-09ac86e99135}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Courses">
+      <UniqueIdentifier>{24891702-ac54-4ecb-8ac1-f0d9547a6a06}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Date.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IPrintable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ICloneable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Student.h">
+      <Filter>Header Files\Users</Filter>
+    </ClInclude>
+    <ClInclude Include="Professor.h">
+      <Filter>Header Files\Users</Filter>
+    </ClInclude>
+    <ClInclude Include="User.h">
+      <Filter>Header Files\Users</Filter>
+    </ClInclude>
+    <ClInclude Include="StudentFileIO.h">
+      <Filter>Header Files\Users</Filter>
+    </ClInclude>
+    <ClInclude Include="ProfessorFileIO.h">
+      <Filter>Header Files\Users</Filter>
+    </ClInclude>
+    <ClInclude Include="FriendReq.h">
+      <Filter>Header Files\FriendReq</Filter>
+    </ClInclude>
+    <ClInclude Include="FriendReqFileIO.h">
+      <Filter>Header Files\FriendReq</Filter>
+    </ClInclude>
+    <ClInclude Include="FriendReqManager.h">
+      <Filter>Header Files\FriendReq</Filter>
+    </ClInclude>
+    <ClInclude Include="Message.h">
+      <Filter>Header Files\Chat</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageManager.h">
+      <Filter>Header Files\Chat</Filter>
+    </ClInclude>
+    <ClInclude Include="Chat.h">
+      <Filter>Header Files\Chat</Filter>
+    </ClInclude>
+    <ClInclude Include="HelpFunction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Login.h">
+      <Filter>Header Files\Users</Filter>
+    </ClInclude>
+    <ClInclude Include="FriendReqInteraction.h">
+      <Filter>Header Files\FriendReq</Filter>
+    </ClInclude>
+    <ClInclude Include="Course.h">
+      <Filter>Header Files\Courses</Filter>
+    </ClInclude>
+    <ClInclude Include="CourseInfoFileIO.h">
+      <Filter>Header Files\Courses</Filter>
+    </ClInclude>
+    <ClInclude Include="CourseReq.h">
+      <Filter>Header Files\Courses</Filter>
+    </ClInclude>
+    <ClInclude Include="CourseReqFileIO.h">
+      <Filter>Header Files\Courses</Filter>
+    </ClInclude>
+    <ClInclude Include="CoursePrecondition.h">
+      <Filter>Header Files\Courses</Filter>
+    </ClInclude>
+    <ClInclude Include="CourseManagerFileIO.h">
+      <Filter>Header Files\Courses</Filter>
+    </ClInclude>
+    <ClInclude Include="CourseStudentFileIO.h">
+      <Filter>Header Files\Courses</Filter>
+    </ClInclude>
+    <ClInclude Include="PassedCourse.h">
+      <Filter>Header Files\Courses</Filter>
+    </ClInclude>
+    <ClInclude Include="CourseRegisterManager.h">
+      <Filter>Header Files\Courses</Filter>
+    </ClInclude>
+    <ClInclude Include="CourseDetails.h">
+      <Filter>Header Files\Courses</Filter>
+    </ClInclude>
+    <ClInclude Include="CourseAdministration.h">
+      <Filter>Header Files\Courses</Filter>
+    </ClInclude>
+    <ClInclude Include="CourseStudentInteraction.h">
+      <Filter>Header Files\Courses</Filter>
+    </ClInclude>
+    <ClInclude Include="CourseProfessorInteraction.h">
+      <Filter>Header Files\Courses</Filter>
+    </ClInclude>
+    <ClInclude Include="UserAdminInteraction.h">
+      <Filter>Header Files\Users</Filter>
+    </ClInclude>
+    <ClInclude Include="CoursePrecondtionFileIO.h">
+      <Filter>Header Files\Courses</Filter>
+    </ClInclude>
+    <ClInclude Include="CourseAdminInteraction.h">
+      <Filter>Header Files\Courses</Filter>
+    </ClInclude>
+    <ClInclude Include="Admin.h">
+      <Filter>Header Files\Users</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Date.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IPrintable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Professor.cpp">
+      <Filter>Source Files\Users</Filter>
+    </ClCompile>
+    <ClCompile Include="Student.cpp">
+      <Filter>Source Files\Users</Filter>
+    </ClCompile>
+    <ClCompile Include="User.cpp">
+      <Filter>Source Files\Users</Filter>
+    </ClCompile>
+    <ClCompile Include="StudentFileIO.cpp">
+      <Filter>Source Files\Users</Filter>
+    </ClCompile>
+    <ClCompile Include="ProfessorFileIO.cpp">
+      <Filter>Source Files\Users</Filter>
+    </ClCompile>
+    <ClCompile Include="FriendReq.cpp">
+      <Filter>Source Files\FriendReq</Filter>
+    </ClCompile>
+    <ClCompile Include="FriendReqFileIO.cpp">
+      <Filter>Source Files\FriendReq</Filter>
+    </ClCompile>
+    <ClCompile Include="FriendReqManager.cpp">
+      <Filter>Source Files\FriendReq</Filter>
+    </ClCompile>
+    <ClCompile Include="Message.cpp">
+      <Filter>Source Files\Chat</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageManager.cpp">
+      <Filter>Source Files\Chat</Filter>
+    </ClCompile>
+    <ClCompile Include="Chat.cpp">
+      <Filter>Source Files\Chat</Filter>
+    </ClCompile>
+    <ClCompile Include="Login.cpp">
+      <Filter>Source Files\Users</Filter>
+    </ClCompile>
+    <ClCompile Include="FriendReqInteraction.cpp">
+      <Filter>Source Files\FriendReq</Filter>
+    </ClCompile>
+    <ClCompile Include="Course.cpp">
+      <Filter>Source Files\Courses</Filter>
+    </ClCompile>
+    <ClCompile Include="CourseInfoFileIO.cpp">
+      <Filter>Source Files\Courses</Filter>
+    </ClCompile>
+    <ClCompile Include="CourseReq.cpp">
+      <Filter>Source Files\Courses</Filter>
+    </ClCompile>
+    <ClCompile Include="CourseReqFileIO.cpp">
+      <Filter>Source Files\Courses</Filter>
+    </ClCompile>
+    <ClCompile Include="CoursePrecondtion.cpp">
+      <Filter>Source Files\Courses</Filter>
+    </ClCompile>
+    <ClCompile Include="CourseManagerFileIO.cpp">
+      <Filter>Source Files\Courses</Filter>
+    </ClCompile>
+    <ClCompile Include="CourseStudentFileIO.cpp">
+      <Filter>Source Files\Courses</Filter>
+    </ClCompile>
+    <ClCompile Include="PassedCourse.cpp">
+      <Filter>Source Files\Courses</Filter>
+    </ClCompile>
+    <ClCompile Include="CourseRegisterManager.cpp">
+      <Filter>Source Files\Courses</Filter>
+    </ClCompile>
+    <ClCompile Include="CourseDetail.cpp">
+      <Filter>Source Files\Courses</Filter>
+    </ClCompile>
+    <ClCompile Include="CourseAdministration.cpp">
+      <Filter>Source Files\Courses</Filter>
+    </ClCompile>
+    <ClCompile Include="CourseStudentInteraction.cpp">
+      <Filter>Source Files\Courses</Filter>
+    </ClCompile>
+    <ClCompile Include="CourseProfessorInteraction.cpp">
+      <Filter>Source Files\Courses</Filter>
+    </ClCompile>
+    <ClCompile Include="UserAdminInteraction.cpp">
+      <Filter>Source Files\Users</Filter>
+    </ClCompile>
+    <ClCompile Include="CoursePrecondtionFileIO.cpp">
+      <Filter>Source Files\Courses</Filter>
+    </ClCompile>
+    <ClCompile Include="CourseAdminInteraction.cpp">
+      <Filter>Source Files\Courses</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
